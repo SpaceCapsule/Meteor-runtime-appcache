@@ -3,7 +3,7 @@
   "description": "enable the application cache in the browser - Runtime bundles hooks added",
   "homepage": "https://github.com/raix/Meteor-runtime-appcache",
   "author": "Morten Henriksen  (http://gi-software.com)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "git": "https://github.com/SpaceCapsule/Meteor-runtime-appcache.git",
   "packages": {
   }
