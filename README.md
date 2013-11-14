@@ -9,7 +9,7 @@ This package adds runtime bundle hooks for the appcache package
 *If the optioinal forceHash is true then the bundle will allways append a hash to the url in the `app.manifest` - otherwise it will try to add the existing query string and fallback to adding a hash*
 
 It's kept in this standalone repo since the hook is not general enough to justify a pull request to Meteor.
-https://github.com/raix/meteor/tree/runtime-appcache
+https://github.com/SpaceCapsule/meteor/tree/runtime-appcache
 
 Credit goes to Andrew @awwx for creating the original appcache package - Below are further credits.
 
