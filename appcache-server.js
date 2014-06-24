@@ -76,7 +76,7 @@ var browserEnabled = function(request) {
 
 WebApp.addHtmlAttributeHook(function (request) {
   if (browserEnabled(request))
-    return 'manifest="/app.manifest' + ((runtimeBundle)?request.url.search:'') + '"';
+    return {'manifest':'/app.manifest' + ((runtimeBundle)?request.url.search:'') + '"'};
   else
     return null;
 });
